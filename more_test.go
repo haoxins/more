@@ -3,6 +3,8 @@ package more
 import . "github.com/pkg4go/assert"
 import "testing"
 
+// TODO - test cache
+
 func TestBasic(t *testing.T) {
 	expect := `<!DOCTYPE html>
 <html>

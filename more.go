@@ -60,7 +60,7 @@ func (r Render) init() {
 
 func (r Render) load(name string) *template.Template {
 	tmpl, ok := r.cache[name]
-	if ok {
+	if ok && r.opts.Cache {
 		return tmpl
 	}
 
